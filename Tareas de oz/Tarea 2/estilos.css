@@ -37,33 +37,74 @@ q:before, q:after { content:''; }
 	.new{
 		border-radius: 5px;
 		color: white;
-		background-color: blue;
-		
+		background-color: #4B87F6;
+		font-weight: bold;
+		font-size: 15px;
+		font-family: Arial;
+		padding: 12px 20px;
+	}
 
+	.projects{
+		border-radius: 5px;
+		background-color: #F3F3FB;
+		font-family: Arial;
+		font-weight: bold;
+		color: #545457;
+	}
+	
+	.mayor{
+		display: inline-block;
+		padding: 24px 8px;
+		margin-left: -25px;
+		opacity: 0.2;
+
+	}
+
+	#big{
+		display: inline-block;
+		padding: 12px 20px;
+		margin-left: -25px;
+		
+	}
+	
+	.cancel{
+		border-radius: 5px;
+		color: black;
+		background-color:#CCCCCC;
+		font-weight: bold;
+		font-size: 15px;
+		font-family: Arial;
+		padding: 12px 20px;
 	}
 
 	
 .container{
-	display: inline-grid;
+	display:flex;
 	grid-column-gap: 0px;
 	grid-template-columns: auto auto auto;
 	padding: 20px;
 	
 }
+
+/* hacen que los panelesseajusten al tamañode la pantalla*/
+
+div, .panel{
 	
-	.tasks, .zones, .dates{
+    flex-wrap: wrap;
+ }
+	
+	#tasks, #zones, #dates{
 	
 			display: inline-block;
 		    float: left;
 			margin-left: 20px;
 			font-family: Arial;
 			font-size: 15px;
-			padding: 20px;
+			padding: 25px;
 			border:1px solid #D3D3DA;
 			background-color: #F3F3FB;
 			border-radius: 5px;
-
-
+			justify-content: space-around;
 
 	}
 	/* Tasks*/
@@ -258,4 +299,10 @@ q:before, q:after { content:''; }
 	 label{
 	 	margin-left: 52px;
 	 }
-		
+
+	 a.menu {
+    display:inline-block;
+    padding:0px 12px;
+    margin:0px 8px;
+	}
+	
