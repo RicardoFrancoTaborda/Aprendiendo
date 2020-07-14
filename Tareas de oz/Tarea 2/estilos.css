@@ -90,14 +90,15 @@ q:before, q:after { content:''; }
 
 div, .panel{
 	
-    flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: auto;
  }
 	
 	#tasks, #zones, #dates{
 	
 			display: inline-block;
 		    float: left;
-			margin-left: 20px;
+			margin-left: auto;
 			font-family: Arial;
 			font-size: 15px;
 			padding: 25px;
