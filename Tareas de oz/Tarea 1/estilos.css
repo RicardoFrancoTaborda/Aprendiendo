@@ -35,51 +35,43 @@ q:before, q:after { content:''; }
 		padding: 12px 10px;
 		text-decoration: none;
 
-		
 	}
 
-	li.submenu{
+	li,.submenu{
 		display: inline-block;
+		text-align: center;
 	}
 
 	.new{
 		border-radius: 5px;
 		color: white;
 		background-color: blue;
-
 	}
 
 	#linea, ul{
 		display: block;
 		list-style-type: none;
 		background-color: gray;
-
-
 	}
-	
-	
 
 	.otromenu{
-		text-align: center;
-		margin-left: 150px;
+		float: left;
+		margin: 0;
 		padding: 4px;
-		
-	
 	}
-
 	
 	li, .otromenu:hover{
 		text-decoration: underline;
 		cursor: pointer;
 	}
-
-	
 	
 	h6{
-		text-align: center;
-		color: black;
-	}
 
+	text-indent:-200px;
+	margin-left: 350px;
+	color: black;
+	}
+	
 	#imagen{
 	
 	    display: inline-block;
