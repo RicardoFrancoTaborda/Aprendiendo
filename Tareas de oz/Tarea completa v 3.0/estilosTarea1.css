@@ -1,0 +1,97 @@
+/* TAREA 1 HORARIOS*/
+
+body{
+	background-color: #F3F3FB;
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+span{
+	color: gray;
+}
+
+.btn-setup, a{
+	text-decoration: none;
+	color: white;
+}
+
+.der > span{
+	margin-right: 15px;
+}
+
+.fondo{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.ventanas{
+	background-color:  #E2E2ED;
+	border:1px solid #D3D3DA;
+	width: auto;
+	line-height: 30px;
+}
+
+.ventanas, .sub-menu{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	grid-column-gap: 40px;
+}
+
+ #ventanas{
+
+	font-weight: bold;
+	color: #7A7A7F;
+	font-size: 12px;
+}
+
+#ventanas:hover{
+	font-weight: bold;
+	color: #4B87F6;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+.imagen{
+	display: flex;
+	width: 200px;
+	height: 100px;
+	box-shadow: 0.2px 0.2px #E2E2ED;
+	border-radius: 5px;
+	margin-top: 40px;
+}
+
+.imagen-1{
+	filter: invert(1);
+}
+
+header, footer{
+		margin-top: 20px;
+		clear: left;
+		text-align: left;
+		margin-left: 50px;
+		color: gray;
+}
+
+small{
+	font-weight: bold;
+	font-size: 13px;
+
+}
+
+figcaption{
+		text-align: center;
+		font-size: 12px;
+		margin-top: 5px;
+		
+	}
+
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilosv3.0.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     >
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,500&display=swap" >
+
+</head>
+<body>
+
+	<div class="navbar">
+
+		<div>
+			<img src="mario.png" width="70px" height="60px">
+			<span id="text">Projects</span>
+			<img src="adelante.png" width="30px" height="20px">
+			<span id="text">big-example</span>
+		</div>
+
+		<div class="der">
+			<button class="btn"><a href="archivado.html" id="cancel">cancel</a></button>
+			<button class="btn btn-setup"><a href="blanco.html">Finished setup</a></button>
+		</div>
+	</div>
+
+
+	<div  class="container">
+		<div class="tasks">
+			<span class="titulo">1. Tasks</span>
+
+			<div class="contenedor">
+				<div class="t1">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word-fram">Framing</p>
+					<span class="material-icons" id="vert">more_vert</span>
+				</div>
+				<div class="t2">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Plumbing</p>
+					<span class="material-icons" id="vert">more_vert</span>
+				</div>
+				<div class="t3">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word-dray">Draywall</p>
+					<span class="material-icons" id="vert">more_vert</span>
+				</div>
+				<div class="t4">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Electrical</p>
+					<span class="material-icons" id="vert">more_vert</span>
+				</div>
+				<div class="t5">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word-paint">Paint</p>
+					<span class="material-icons" id="vert">more_vert</span>
+				</div>
+
+				<div class="t6">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word-days">Other 1</p>
+					<span class="material-icons">date_range</span>
+					<p>4 days</p>
+					<span class="material-icons">more_vert</span>
+				</div>
+				<div class="t7">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word-days">Other 2</p>
+					<span class="material-icons">date_range</span>
+					<p>5 days</p>
+					<span class="material-icons">more_vert</span>
+				</div>
+				<p id="signo">+ Add a new task</p> 
+			</div>
+		</div>
+	
+		<div class="zones">
+			<span class="titulo">2. Zones</span>
+
+			<div class="contenedor">
+				<div class="z1">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor 1</p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+				<div class="z2">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor 2</p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+				<div class="z3">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor 3</p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+				<div class="z4">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor 4</p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+				<div class="z5">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor5 </p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+
+				<div class="z6">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor 6</p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+				<div class="z7">
+					<span class="material-icons">drag_indicator</span>
+					<p id="word">Floor 7</p>
+					<span class="material-icons">delete_outline</span>
+				</div>
+				<div class="z8">
+					<input type="text" placeholder="Name of your first zone (ej. Floor 1)" id="caja">
+				</div>
+
+				<p id="signo">+ Add a new task</p> 
+			</div>
+		</div>
+
+		<div class="dates">
+			<span class="titulo">3. Dates and Durations</span>
+
+			<div class="contenedor">
+									
+				<p id="text">Work Week</p>
+				
+				<div class="item">	
+						
+						<div>
+							<p id="dias">Mon</p>
+						</div>
+						<div>
+							<p id="dias">Tue</p>
+						</div>
+						<div>		
+							<p id="dias">Wen</p>
+						</div>
+						<div>
+							<p id="dias">Thu</p>
+						</div>
+						<div>
+							<p id="dias">Fri</p>
+						</div>	
+						<div id="fines">
+							<p id="dias">Sat</p>
+						</div>
+						<div id="fines">
+							<p id="dias">Sun</p>
+						</div>
+				</div>	
+								
+					<p id="text">Tack period</p>
+
+					<select name="days" id="opciones">
+						<option value="uno">1 day</option>
+						<option value="dos">2 days</option>
+						<option value="tres">3 days</option>
+						<option value="cuatro">4 days</option>
+						<option value="cinco">5 days</option>
+					</select>
+				
+				<div id="linea"></div>
+
+					<p id="text">Start Date</p>
+					<input type="date" name="trip-start" id="fecha" value="2020-07-13" min="2020-01-01"  max="2020-12-31">
+					
+					<p id="text">End Date</p>
+					<label id="text">March 25, 2021</label>  
+							
+					<p id="text">Duration</p>
+					<label id="text">189 days</label>  
+					
+				<div id="linea"></div>
+
+					<p id="text">Hollidays</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
