@@ -1,0 +1,118 @@
+
+
+	html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/**Fin del reseteo con el fin de hacer desde 0 todo**/
+
+	#barra, ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		top: 0;
+		background-color: white;
+	}
+
+	li{
+		float: left;
+	}
+
+	li a, .submenu{
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 12px 10px;
+		text-decoration: none;
+
+		
+	}
+
+	li.submenu{
+		display: inline-block;
+	}
+
+	.new{
+		border-radius: 5px;
+		color: white;
+		background-color: blue;
+
+	}
+
+	#linea, ul{
+		display: block;
+		list-style-type: none;
+		background-color: gray;
+
+
+	}
+	
+	
+
+	.otromenu{
+		text-align: center;
+		margin-left: 150px;
+		padding: 4px;
+		
+	
+	}
+
+	
+	li, .otromenu:hover{
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	
+	
+	h6{
+		text-align: center;
+		color: black;
+	}
+
+	#imagen{
+	
+	    display: inline-block;
+		width: 200px;
+		height: 100px;
+		margin-left: 30px;
+		padding: 15px;
+		font-family: arial;
+	}
+
+	figcaption{
+
+		text-align: left;
+		margin-left: 60px;
+		margin-top: -5px;
+	}
+	
+	figure{
+		float: left;
+	}
+
+	small, p{
+		clear: left;
+		text-align: left;
+		margin-left: 90px;
+		color: gray;
+	}
+
+	footer{
+		
+		text-align: left;
+		margin-left: 5px;
+		color: gray;
+
+	}
+	

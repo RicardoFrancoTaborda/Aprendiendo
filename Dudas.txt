@@ -1,0 +1,11 @@
+
+
+------------------------------------------------------
+para las tarjetas utilizaste el float, el display inline-block y hasta margenes para que se ajustarán
+(solo con flex y quizá un poco de margin debería funcionar perfectamente)
+------------------------------------------------------
+
+
+
+
+tarea 1 * los arreglo que le hiciste a la parra de las tabs, fue con float, y queda corrida hacia el lado izquierdo, lo mejor es hacerlo con flex
