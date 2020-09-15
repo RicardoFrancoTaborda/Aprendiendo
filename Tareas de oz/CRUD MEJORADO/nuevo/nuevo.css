@@ -1,0 +1,56 @@
+.cuadro{
+	padding: 20px;
+	background-color: blue;
+	text-transform: uppercase;
+	margin: auto;
+	width: 60%;
+	margin-top: 50px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px 1px black;
+}
+
+.titulo{
+	color: white;
+	font-size: 12px;
+}
+
+.formulario{
+	/*padding: 10px;
+    width: 60%;
+    margin: auto; */
+    text-align: center;
+
+}
+
+#caja{
+	border-radius: 8px;
+	background-color: pink;
+	padding: 10px;
+}
+
+button{
+	padding: 10px;
+	background-color: yellow;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: red;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+#btn-delete, #btn-update{
+	color: cyan;
+	background-color: gray;
+	border-radius: 5px;
+	margin-right: 5px;
+	padding: 5px;
+}
+
+li{
+	color: yellow;
+	text-transform: uppercase;
+
+}
+

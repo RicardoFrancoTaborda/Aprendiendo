@@ -1,0 +1,198 @@
+
+	html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/*----------------------------------------------------------------*/
+.barra-navegacion{
+	background-color:white;	
+}
+
+body{
+	background-color: #E2E2ED;
+}
+
+button.btn-cancel{
+	background-color: #CCCCCC;
+	color: black;
+}
+
+.btn-cancel > a{
+	color: black;
+}
+
+.material-icons{
+	color: white;
+}
+#arrow{
+	color:gray;
+}
+
+.big-container{
+	display: grid;
+	grid-column-gap: 30px;
+	grid-template-columns:repeat(auto-fill,22em);
+	justify-content: space-around;
+	padding: 20px;	
+	grid-row-gap: 20px;
+}
+
+.tarjetas-container{
+	display: grid;  /*no es necesaria*/
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+ #tarjetas{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#word_task{
+	color: white;
+}
+
+#vert, #puntos,#vert1,#puntos1{
+	cursor: pointer;
+}
+
+#vert1, #puntos1{
+	color: gray;
+}
+
+.task-tag,.zone-tag,.dates-tag{
+	display: grid;
+	align-items: center;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 5px;
+	grid-column: 1/3;
+	grid-template-columns: auto 1fr auto;		
+	background-color:  #E2E2ED;
+	
+}
+
+.other{
+	 grid-template-columns: auto 1fr auto auto auto;
+}
+
+ #calendar{
+	cursor: pointer;	
+}
+
+
+#textarea{
+	width: 190px;
+	padding: 4px;
+	border:none;
+	border-radius: 5px;
+	font-weight: normal;
+	font-size: 12px;
+	background-color:  #E2E2ED;
+}
+
+.text{
+	font-weight: bold;
+	color: black;
+	font-size: 14px;
+}
+
+.columna > div{
+   display: inline-grid;
+   width: 25px;
+   height: 20px;
+   text-align: center; 
+   font-size: 12px;
+   background-color: gray;
+   color: white;
+   border-radius: 5px; 
+}
+
+.dias{
+	font-weight: bold;
+	color: white;
+	padding: 2px 1px;
+	cursor: pointer;
+}
+
+.fines{
+	font-weight: bold;
+	background-color: #E2E2ED;
+	color: black;
+	border-radius: 5px; 
+	cursor: pointer;
+}
+
+.dias:hover{
+	font-weight: bold;
+	background-color: #E2E2ED;
+	color: black;
+	border-radius: 5px; 
+}
+
+.fines:hover{
+	font-weight: bold;
+	color: white;
+	background-color: gray;
+	padding: 2px 1px;
+}
+
+.dates-tag{
+	background-color: white;
+	grid-column-gap: 20px;
+	grid-template-columns: auto auto;	
+	grid-row-gap: 20px;
+	
+}
+
+.tack {
+	padding: 4px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+select{
+	border:none;
+	width: 40%;
+	background-color: #E2E2ED;
+	color: black;
+	font-weight: normal;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.linea{
+	border: solid 1px gray;
+	grid-column: 1/3;
+
+}
+
+#nuevoInput{
+	grid-column: 1/3;
+}
+
+#date{
+	border:none;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #E2E2ED;
+	color: black;
+	font-weight: normal;
+	font-size: 11px;
+	grid-template-columns: auto;
+	cursor: pointer;
+}
+
+

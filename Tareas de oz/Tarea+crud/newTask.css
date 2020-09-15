@@ -1,0 +1,43 @@
+
+	html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+/*----------------------------------------------------------------*/
+
+#btn,#btn1{
+	padding: 10px;
+	color:  #0084EA;
+	font-weight: bold;
+	cursor: pointer;
+	border: none;
+	background-color: white;
+}
+
+#caja{
+	
+	border-color: transparent;
+	background-color: transparent;
+	color: black;
+			
+}
+
+p{
+	color: black;
+}
+
+.task-new, .task-new1{
+
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 5px;
+	grid-column: 1/3;
+	grid-template-columns: auto 1fr auto;
