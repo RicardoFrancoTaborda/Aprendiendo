@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="newTask.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,500&display=swap" >
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
 
 </head>
 <body>
@@ -72,56 +73,57 @@
 			<div class="task-new">
 			
 				<p id="formulario"></p>
-				
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 			
 			</div>
 				
 			<div id="nuevoInput">
-					<button id="btn" onclick="formulario()">+ Add new task</button>
+					<button id="btn" onclick="formulario();formulario1()">+ Add new task</button>
+
 			</div>
-	
+		<script src="newTask.js"></script>	
 				
 		</div>
 
 		<div class="tarjetas-container">
 			<p id="tarjetas">2. Zones</p>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones1">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 1</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones2">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 2</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones3">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 3</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones4">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 4</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones5">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 5</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones6">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 6</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
-			<div class="zone-tag">
+			<div class="zone-tag" id="zones7">
 				<i class="material-icons"  id="puntos1">drag_indicator</i>
 				<p>Floor 7</p>
 				<i class="material-icons" id="vert1">delete_outline</i>
 			</div>
 			
-			<div class="task-new1">
+			<div class="zone-new">
 			
 				<p id="formulario1"></p>
 				
@@ -132,9 +134,7 @@
 					<button id="btn1" onclick="formulario1()">+ Add new task</button>
 			</div>
 
-			<script>
-				
-			</script>
+			<script src="newZone.js"></script>
 
 
 		</div>
@@ -195,6 +195,7 @@
 		</div>
 		</div>
 	</div>
-<script src="newTask.js"></script>	
+	
+
 </body>
 </html>

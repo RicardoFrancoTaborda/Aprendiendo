@@ -1,0 +1,25 @@
+.cuadro{
+	padding: 20px;
+	margin: auto;
+	width: 22.5%;
+	margin-top: 50px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px 1px black;
+}
+
+
+
+button{
+	padding: 10px;
+	background-color: blue;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: red;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-left: 80px;
+	margin-top: 10px;
+
+}
+

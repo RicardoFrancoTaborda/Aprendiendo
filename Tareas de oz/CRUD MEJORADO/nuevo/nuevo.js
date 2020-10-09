@@ -23,7 +23,6 @@ function formulario(){
 			}
 
 		}
-
 		
 /*	$('#btn').addEventListener('click',function(){
 						var input= document.createElement('input');

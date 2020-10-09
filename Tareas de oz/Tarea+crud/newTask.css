@@ -34,10 +34,16 @@ p{
 	color: black;
 }
 
-.task-new, .task-new1{
+.task-new, .zone-new{
 
 	border-radius: 5px;
 	padding: 4px;
 	margin-bottom: 5px;
 	grid-column: 1/3;
 	grid-template-columns: auto 1fr auto;
+	
+}
+
+#word_zone{
+	color: black;
+}

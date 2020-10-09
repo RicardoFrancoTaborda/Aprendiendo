@@ -1,62 +1,65 @@
-document.getElementById('btn').addEventListener('click', function(){
+	
+		var task=document.getElementById('task1');
+		task.addEventListener('click',()=>{
+		task.style.display='none'
+		});
+		
+
+		var task1=document.getElementById('task2');
+		task1.addEventListener('click',()=>{
+		task1.style.display='none'
+		});
+
+		var task2=document.getElementById('task3');
+		task2.addEventListener('click',()=>{
+		task2.style.display='none'
+		});
+
+		var task3=document.getElementById('task4');
+		task3.addEventListener('click',()=>{
+		task3.style.display='none'
+		});
+
+		var task4=document.getElementById('task5');
+		task4.addEventListener('click',()=>{
+		task4.style.display='none'
+		});
+
+		var task5=document.getElementById('task6');
+		task5.addEventListener('click',()=>{
+		task5.style.display='none'
+		});
+
+		var task6=document.getElementById('task7');
+		task6.addEventListener('click',()=>{
+		task6.style.display='none'
+		});
+
+
+
+	document.getElementById('btn').addEventListener('click', function(){
 
 	var input= document.createElement('input');
 	input.setAttribute('id','caja');
 	input.setAttribute('placeholder','Insert New Task');
 	var taskNew=document.getElementsByClassName('task-new')[0];
 
-
 	input.addEventListener('keyup',(event)=>{
 
 		if(event.key == 'Enter'){
-			formulario();
-			taskNew.removeChild(input);
-			
-		}
-	});
-			
 
+			formulario();
+			setRandomColor();
+			taskNew.removeChild(input);
+						
+		}
+
+	});
+		
 	taskNew.appendChild(input);
 	
-
-});
+	});
 	
-
-		var div=document.getElementById('task1');
-		div.addEventListener('click',()=>{
-		div.style.display='none'
-		});
-
-		var div1=document.getElementById('task2');
-		div1.addEventListener('click',()=>{
-		div1.style.display='none'
-		});
-
-		var div2=document.getElementById('task3');
-		div2.addEventListener('click',()=>{
-		div2.style.display='none'
-		});
-
-		var div3=document.getElementById('task4');
-		div3.addEventListener('click',()=>{
-		div3.style.display='none'
-		});
-
-		var div4=document.getElementById('task5');
-		div4.addEventListener('click',()=>{
-		div4.style.display='none'
-		});
-
-		var div5=document.getElementById('task6');
-		div5.addEventListener('click',()=>{
-		div5.style.display='none'
-		});
-
-		var div6=document.getElementById('task7');
-		div6.addEventListener('click',()=>{
-		div6.style.display='none'
-		});
-
 
 
 function formulario(){
@@ -69,10 +72,12 @@ function formulario(){
 	var listado=document.getElementById('formulario');
 	var eliminar=document.getElementById('puntos');
 
+	
 	var div=document.createElement('div');
 	div.setAttribute('class','task-tag');
-	div.setAttribute('style','background-color:black');
-	
+	div.setAttribute('id','color-task');
+	div.setAttribute('style','background-color:#000'); 
+
 	var i=document.createElement('i');
 	i.setAttribute('class','material-icons');
 	i.setAttribute('id','puntos');
@@ -95,7 +100,7 @@ function formulario(){
 	div.appendChild(f);
 	entrada.value='';
 
-
+	
 	i.onclick=function(){
 		
 		listado.removeChild(div);
@@ -116,8 +121,17 @@ function formulario(){
 
 }
 
+function getRandomColor() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
 
-
-
+function setRandomColor() {
+  $("#color-task").css("background-color", getRandomColor());
+}
 
 
